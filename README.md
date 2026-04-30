@@ -1,16 +1,36 @@
-# React + Vite
+# 🎬 LearnFlix – Smart Video Learning Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+LearnFlix is a modern React (Vite) based video streaming and learning platform that allows users to organize, watch, and track educational content efficiently.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- 📺 Video playlist system
+- 🔍 Search videos instantly
+- ⭐ Add to favorites
+- 🕒 Continue watching
+- 🧠 Notes per video
+- 📊 Progress tracking
+- 🌙 Dark / Light mode
+- 🎲 Shuffle videos
+- ⌨️ Keyboard navigation
+- 📱 Fully responsive design
+- 💾 LocalStorage persistence
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React (Hooks)
+- Vite
+- CSS
+- LocalStorage API
 
-## Expanding the ESLint configuration
+## 🌐 Live Demo
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+(After deploying on Vercel, paste your link here)
+
+## ⚙️ Setup
+
+```bash
+git clone https://github.com/your-username/learnflix.git
+cd learnflix
+npm install
+npm run dev
